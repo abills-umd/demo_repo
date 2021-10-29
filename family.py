@@ -6,3 +6,7 @@ class Person:
         self.spouse = None
         self.parents = set()
         self.children = set()
+
+    def marry(self, other):
+        self.spouse = other
+        other.spouse = self
