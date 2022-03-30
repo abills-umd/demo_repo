@@ -3,6 +3,8 @@ class Person:
     
     Attributes:
         name (str): the person's name.
+        age (int): the person's age.
+        gender (str): the person's gender.
     """
     def __init__(self, name, age, gender):
         self.name = name
