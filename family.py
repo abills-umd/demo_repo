@@ -1,4 +1,9 @@
 class Person:
+    """A member of a family.
+    
+    Attributes:
+        name (str): the person's name.
+    """
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
