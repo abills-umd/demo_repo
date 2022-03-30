@@ -6,6 +6,7 @@ class Person:
         age (int): the person's age.
         gender (str): the person's gender.
         spouse (Person or None): the person's spouse.
+        children (set of Person): the person's children.
     """
     def __init__(self, name, age, gender):
         self.name = name
