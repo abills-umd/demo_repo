@@ -10,6 +10,13 @@ class Person:
         children (set of Person): the person's children.
     """
     def __init__(self, name, age, gender):
+        """Does stuff
+
+        Args:
+            name (string): _description_
+            age (int): _description_
+            gender (char): _description_
+        """
         self.name = name
         self.age = age
         self.gender = gender
