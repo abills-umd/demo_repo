@@ -10,6 +10,7 @@ class Person:
         children (set of Person): the person's children.
     """
     def __init__(self, name, age, gender):
+        """Initialize a Person object."""
         self.name = name
         self.age = age
         self.gender = gender
